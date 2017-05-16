@@ -1,0 +1,5 @@
+src/*.exe
+src/backup
+src/lockmute.res
+src/lib
+src/po
