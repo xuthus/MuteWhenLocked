@@ -83,6 +83,7 @@ function IsWindows10orHigher: Boolean;
 var
   Buffer: PServerInfo101;
 begin
+  Result := False;
   Buffer := nil;
   if NetServerGetInfo(nil, 101, Pointer(Buffer)) = NO_ERROR then
     try
