@@ -69,7 +69,7 @@ begin
     Result := IsSessionLocked()
   else
   begin
-    hDesktop := OpenInputDesktop(0, False, DESKTOP_SWITCHDESKTOP);
+    hDesktop := OpenDesktop('default', 0, False, DESKTOP_SWITCHDESKTOP);
     try
       if hDesktop <> 0 then
         Result := not SwitchDesktop(hDesktop);
