@@ -17,6 +17,7 @@ You can download compiled build for 64bit Windows [here](http://elcoder.ru/files
 In my nearest plans:
 * implement the ability to translate the application to other languages
 * add hot keys to change volume
-* test application on Windows XP
+* test application on Windows XP, Windows 8, Windows Server Editions
+* add 32bit Windows support
 
 May be also I add versions to use in operating systems other than Microsoft Windows.
