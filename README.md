@@ -3,10 +3,10 @@ Mute Sounds When Desktop Locked
 
 Application mutes sounds when user locks desktop. Automatically. Changes master volume level.
 
-This can be useful at work - you've gone to home, but the music goes on in headphones on your table...
+This can be useful at work - you've gone to home, but the music goes on in headphones on your desk...
 And your dear colleagues will listen to your favorite grunge music till workstation won't sleep.
 
-The application change master volume to predefined level each time you lock desktop.
+The application changes master volume to predefined level each time you lock desktop. And restores it when desktop unlocked.
 
 Now it is tested on Windows 7 and Windows 10, both with UAC turned on.
 
